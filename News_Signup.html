@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subcribe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="icon" type="image/x-icon" href="./icon.png"></link>
+
+    <!-- CSS: -->
+    <style>
+
+    label:hover{
+        background-color:black;
+        color: white;
+    }
+    label{
+          cursor: pointer;
+          border: 2px solid black;
+          border-radius: 40px;
+          padding: 10px 10px;
+    }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container-fluid  bg-white border">
+        <img class="float-start" src="./icon.png" id="coffee-mug" width="30" height="30" alt="none">
+
+        <h2><i>The Daily CollaboraIT</i></h2>
+        <nav class="navbar navbar-expand-md navbar-light bg-dark ">
+
+            <div class="container-fluid">
+    
+                <ul class="navbar-nav">
+    
+                    <li>
+                        <a style="color:white" class="navbar-brand" href="./Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a style="color:white" class="navbar-brand" href="../Day_2/day2hw/Finances.html">Finances</a>
+                    </li>
+                    <li>
+                        <a style="color:white" class="navbar-brand" href="./NewsPaperReview.html">Reviews</a>
+                    </li>
+                    <li>
+                        <a style="color:white" class="navbar-brand" href="./News_Signup.html">Subscribe</a>
+                    </li>
+    
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div id="sign">
+
+        <h2 style=" text-align: center;"><i>Subscribe to our Daily News Letter!</i></h2>
+
+
+        <div class="container-fluid bg-dark text-dark border">
+            <!-- If you found this message, there is no prize, only my pain of Front-end developing lol. -->
+            <h> Secret dev message</h>
+        </div>
+        <br>
+        <hr>
+
+        <div id="sign-head" style="margin: auto; text-align: center;">
+            <h5>Our new system automatically be "opt-in/opt-out" of monthly renewal of subscription. Sign up now!</h5>
+            <p>&nbsp;&nbsp;click on this box to opt-out "monthly renewal"&nbsp;<input type="checkbox"></p><br>
+        </div>
+        
+
+        
+       
+
+
+<div class="container" style="margin: auto; text-align: center;" >
+    <br>
+    <br>
+            <form>
+                <h5>To register, please fill out the fields down below</h5>
+        <br><br>
+
+                <label for="fname">&nbsp;&nbsp;First Name: <input type="text" id="fname"></label>
+                <br><br>
+                <br><br>
+
+
+
+
+                <label for="lname">&nbsp;&nbsp;Last Name: <input type="text" id="lname"></label>
+
+                <br><br>
+                <br><br>
+
+
+
+
+                <label for="email">&nbsp;&nbsp;&nbsp;Email:&nbsp;<input type="email" id="email"></label>
+
+                <p>&nbsp;&nbsp;&nbsp;click on this box to opt-out of email&nbsp;<input type="checkbox"></p>
+                <br>
+                <br>
+
+
+                <div class="card-box">
+                    <div class="card" style="border: 2px solid black;">
+                        <br>
+                        <br>
+                <!-- I don't know how to put in credit card algorithm for html but I used it to make my page look nicer -->
+                <p class="h6">Please input your credit card information:</p>
+                <br>
+                <br>
+                <blockquote cite="https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers">
+                <label for="ccn">&nbsp;&nbsp;&nbsp;Credit Card Number:&nbsp; <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"></label>
+                </blockquote>
+                <br>
+                <br>
+                <p class="h6">Check this box if you want to remeber this card for a monthly statement, or do not click.&nbsp;<input type="checkbox"  id="skip-monthly"></p>
+                <br><br>
+                <br><br>
+                <br>
+                </div>
+                </div>
+                <br><br><br>
+
+            <blockquote cite="https://www.washingtonpost.com/">
+
+            <div id="image">
+            <img src="./Screenshot (61).png" height="400" style="margin: auto; text-align: right;"> </div>
+            <sub>Shown above is our partner company's site: <i>"The Washington Post"</i></sub>
+           </blockquote>    
+
+            <br>
+            <br><br>
+
+                <p>&nbsp;&nbsp;<b>If you do not wish to opt in for recieving discounts in the mail click the "skip"
+                        check box </b></p>
+                <label for="address">&nbsp;&nbsp;Address: <input type="text" id="address"></label>
+
+                <br>
+                <br>
+
+
+                <label for="zip">&nbsp;&nbsp;zip-code: <input type="text" id="zip"></label>
+
+
+
+                <br><br>
+                <p>&nbsp;&nbsp;skip &nbsp; <input type="checkbox" value="opt-out of address"></p>
+
+                <br>
+                <br>
+                <br>
+                <br>
+      
+
+
+
+
+
+        <label for="password">&nbsp;&nbsp;Password: <input type="password" id="password"></label>
+
+        <br>
+        <br>
+
+        <p>&nbsp;&nbsp;Confirm your password</p>
+        <label for="password">&nbsp;&nbsp;Password <input type="password" id="cpassword"></label>
+
+        <br>
+        <br>
+
+        <p>&nbsp;&nbsp; &nbsp;<button class="btn btn-dark"><a style="color: white;" href="./Subscibe_Success.html">Subscribe</a></button> </p>
+ </form>
+  </div>
+
+
+       
+</div>
+</body>
+<br><br>
+<footer>
+    <nav class="navbar navbar-expand-md navbar-light bg-dark ">
+
+        <div class="container-fluid">
+
+            <ul class="navbar-nav">
+
+                <li>
+                    <a style="color:white" class="navbar-brand" href="./Home.html">Home</a>
+                </li>
+                <li>
+                    <a style="color:white" class="navbar-brand" href="../Day_2/day2hw/Finances.html">Finances</a>
+                </li>
+                <li>
+                    <a style="color:white" class="navbar-brand" href="./NewsPaperReview.html">Reviews</a>
+                </li>
+                <li>
+                    <a style="color:white" class="navbar-brand" href="./News_Signup.html">Subscribe</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+</footer>
+</html>

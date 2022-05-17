@@ -1,0 +1,107 @@
+.container1{
+    background-color: white;
+}
+
+.map-container{
+    width:600px;
+    height:450px 
+    style border = 0px;
+    margin : auto;
+}
+
+#mid-with-map{
+    column-count:3px;
+}
+
+#review-cards{
+    column-count:3 ;
+    text-align: center;
+}
+#store-buttons{
+    column-count: 2;
+}
+.news-articles{
+    column-count:2;
+}
+
+#list-items{
+    column-count: 2;
+}
+
+
+/* Home page css: */
+/* Menu buttons toggle: */
+/* Followed a online tutorial on how to make a toggling website. As a consequence the 
+info fields on the "sign up" page has changed as well. */
+
+
+
+
+.main-page-back{
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: 1990px 970px ;
+    background-position:auto;
+}
+
+
+
+#checkBtn{
+    display: none;
+    /* hides the element */
+}
+#listing{
+    display: none;
+    /* hides the list */
+}
+#checkBtn:checked ~ #listing{
+    display: block;
+
+}
+
+#checkBtn1{
+    display: none;
+}
+#listing1{
+    display: none;
+}
+#checkBtn1:checked ~ #listing1{
+    display: block;
+}
+
+
+#checkBtn3{
+    display: none;
+}
+#listing3{
+    display: none;
+}
+#checkBtn3:checked ~ #listing3{
+    display: block;
+}
+
+
+
+
+
+label{
+cursor: pointer;
+border: 2px solid black;
+border-radius: 40px;
+padding: 10px 10px;
+}
+label:hover{
+    background-color:rgb(32, 161, 131);
+}
+
+.about-us{
+    border: 2px solid green;
+    text-align: center;
+    background-position: center;
+    background-size: 1300px 1100px;
+    background-image: url("./caffeine-g46bb597a1_1920.jpg");
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    text-shadow: 5pt;
+}
